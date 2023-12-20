@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone - Your Favourite Music Is Here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+    <nav>
+        <div class="navLeft">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+                <span>Spotify</span>
+            </div>
+            <!-- <ul>
+                <li>Home</li>
+                <li>Search</li>
+                <li>Your Library</li>
+            </ul> -->
+        </div>
+        <div class="navRight">
+            <div>Upgrade</div>
+            <div>
+                <img src="images/u.png" alt="">
+                <span>Aman Pathra</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="conLeft">
+            <div class="conLeftUp">
+                <div class="leftContent">
+                    <i class="fa-solid fa-xl fa-house"></i>
+                    <span>Home</span>
+                </div>
+                <div class="leftContent">
+                    <i class="fa-solid fa-xl fa-magnifying-glass"></i>
+                    <span>Search</span>
+                </div>
+                <div class="leftContent">
+                    <i class="fa-solid fa-xl fa-layer-group"></i>
+                    <span>Your Library</span>
+                </div>
+            </div>
+            <div class="conLeftDown">
+                <div class="leftContent">
+                    <i class="fa-solid fa-xl fa-square-plus"></i>
+                    <span>Create Playlist</span>
+                </div>
+                <div class="leftContent">
+                    <i class="fa-solid fa-xl fa-heart"></i>
+                    <span>Liked Songs</span>
+                </div>
+            </div>
+        </div>
+        <div class="conRight">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songsList">
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="bottomLeft">
+            <img id="playingCover" src="covers/1.jpg" alt="">
+            <div class="playingSA">
+                <span>On & On</span>
+                <span>Cartoon</span>
+            </div>
+            <i class="fa-regular fa-heart" id="playingLikeBtn"></i>
+        </div>
+        <div class="bottomCenter">
+            <div id="playingBtns">
+                <i class="fa-solid fa-xl fa-shuffle"></i>
+                <i class="fa-solid fa-xl fa-backward-step" id="backwardPlay"></i>
+                <i class="fa-solid fa-2xl fa-circle-play" id="masterPlay"></i>
+                <i class="fa-solid fa-xl fa-forward-step" id="forwardPlay"></i>
+                <i class="fa-solid fa-xl fa-repeat"></i>
+            </div>
+            <div id="playingBar">
+                <span>0:00</span>
+                <input type="range" name="playingRange" id="myProgressBar" min="0" max="1000" value="0">
+                <span>0:00</span>
+            </div>
+        </div>
+        <div class="bottomRight">
+            <i class="fa-solid fa-desktop"></i>
+            <i class="fa-solid fa-volume-low" id="muteBtn"></i>
+            <input type="range" name="soundRange" id="soundBar" min="0" max="100" value="25">
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ba97939eef.js" crossorigin="anonymous"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="script2.js"></script>
+</body>
+</html>
