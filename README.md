@@ -13,7 +13,7 @@ This is a simple Spotify clone created using vanilla HTML, CSS, and JavaScript. 
 
 1. Clone the repository to your local machine:
 ```
-git clone https://github.com/your-username/spotify-clone.git
+git clone https://github.com/amanpathra/spotify-clone.git
 ```
 2. Open the index.html file in your web browser to launch the application.
 
